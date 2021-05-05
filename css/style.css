@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+html, body {
+    min-height: 100vh;
+    min-width: 100vw;
+    background-image: linear-gradient(to bottom right, #2C5364, #203A43, #0F2027);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    line-height: 1;
+}
+
+#projectid {
+    display: block;
+    position: absolute;
+    top: 3rem;
+    left: 1.5rem;
+}
+
+
+#projectid a {
+    color: white;
+    font-size: 3rem;
+    text-transform: uppercase;
+    line-height: .88;
+    background-color: #0e0e10;
+    padding: 15px 45px;
+    text-decoration: none;
+    transition: ease 500ms;
+}
+
+#projectid a:hover, #projectid a:active {
+    background: linear-gradient(to bottom right, #0F2027, #203A43, #2C5364);
+    transition: ease 500ms;
+}
+
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container > .row > .boxstate {
+    background-color: white;
+    padding: 30px;
+}
+
+#container p {
+    font-size: 3rem;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: .88;
+    background: linear-gradient(to top left, #0F2027, #203A43);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.linkbox {
+    color: #0F2027;
+    text-decoration: none;
+    font-size: 2rem;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 2.88;
+    background-color: white;
+    padding: 20px;
+    transition: ease 500ms;
+}
+
+.linkbox:hover, .linkbox:active {
+    color: white;
+    background: linear-gradient(to bottom right, #0F2027, #203A43, #2C5364);
+    transition: ease 500ms;
+}
+
+#credit {
+    color: white;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 20px;
+}
+
+#credit a {
+    color: #efefef;
+    text-decoration: none;
+}
+#credit a:hover, #credit a:active {
+    text-decoration: underline;
+}
